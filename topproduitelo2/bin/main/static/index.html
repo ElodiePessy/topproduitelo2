@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>top produit</title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+
+</head>
+
+<body>
+
+	<header>
+		<h1 class="text-center">Liste des Produits les plus populaires</h1>
+	</header>
+
+	<section>
+		<p class="text-center">L'objectif principal de l'application est
+			de permettre de consulter le nutriscore d'un produit parmi le TOP des
+			produits préférés des français afin de mieux contrôler son
+			alimentation.</p>
+
+
+	</section>
+
+
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+
+				<article class="offset-md-1 col-md-8 col-sm-12 col-xs-12"
+					id="produitList">
+					<table id="tableProduits" class="display">
+						<thead>
+							<tr id="boutonProduit">
+								<th>Identifiant</th>
+								<th>Nom</th>
+								<th>Marque</th>
+							</tr>
+						</thead>
+					</table>
+				</article>
+
+				<article class="col-md-2 col-sm-12 col-xs-12"
+					style="width: 4rem">
+					<div class="card-body">
+						<img src="" class="img-fluid" alt="
+						" />
+
+						<h5 class="card-title text-center"></h5>
+						<p class="card-text"></p>
+					</div>
+				</article>
+
+
+				<article class="col-md-4 offset-md-1 col-sm-12 col-xs-12">
+					<form class="text-center">
+						<h3>Ajouter Un Produit</h3>
+
+						<div class="form-group">
+							<label for="exampleInputId"> Identifiant </label> <input
+								type="text" class="form-control" id="inputId"> <small
+								id="emailHelp" class="form-text text-muted"></small>
+						</div>
+
+						<div class="form-group">
+							<label for="exampleInputNom"> Nom </label> <input type="text"
+								class="form-control" id="inputNom"> <small
+								id="emailHelp" class="form-text text-muted"></small>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputMarque"> Marque </label> <input
+								type="text" class="form-control" id="inputMarque">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputNutriscore"> Nutri-Score </label> <input
+								type="text" class="form-control" id="inputNutriscore">
+						</div>
+						<button id="submit" type="submit" class="btn btn-primary">Envoyer</button>
+					</form>
+				</article>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+	<script
+		src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
